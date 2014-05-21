@@ -9,7 +9,7 @@ public class GenDemo1
    public static void main(String[] args)
    {
       List<String> directions = new ArrayList<String>();
-      directions.add("north");
+      directions.add("northeast");
       directions.add("south");
       directions.add("east");
       directions.add("west");
