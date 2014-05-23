@@ -5,6 +5,18 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/* Output is like this: 
+ * *************************LinkedHashMap*************
+	6=apple
+	3=banana
+	2=pear
+	*************************HashMap**************************
+	2=pear
+	6=apple
+	3=banana
+	
+	LinkedHashmap 的特点是put进去的对象位置未发生变化,而HashMap会发生变化.
+ */
 public class TestLinkedHashMap {
 	 
 	  public static void main(String args[])
